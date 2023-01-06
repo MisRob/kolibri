@@ -56,7 +56,7 @@
     "jest-serializer-vue": "^2.0.2",
     "launch-editor-middleware": "^2.5.0",
     "lodash": "^4.17.21",
-    "mini-css-extract-plugin": "^1.4.1",
+    "mini-css-extract-plugin": "^2.7.2",
     "mkdirp": "^1.0.4",
     "node-sass": "7.0.1",
     "postcss-less": "^6.0.0",
