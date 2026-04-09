@@ -364,7 +364,7 @@ describe('AssessmentWrapper', () => {
       await fireEvent.click(screen.getByTestId('trigger-item-error'));
 
       await waitFor(() => {
-        expect(screen.getByText('There was an error showing this question')).toBeInTheDocument();
+        expect(screen.getByText(AssessmentWrapper.$trs.itemError.message)).toBeInTheDocument();
         expect(screen.getByText('Try a different question')).toBeInTheDocument();
       });
     });
